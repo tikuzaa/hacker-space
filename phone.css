@@ -1,0 +1,96 @@
+/*Media Queries*/
+
+/*Navigation*/
+#navigation-menu{
+    flex-direction: column;
+}
+/*nav-bar*/
+#navigation-bar{
+    position: absolute;
+    top: 12px;
+    left: 2%;
+    width: 75%;
+}
+#navigation-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+#navigation-bar ul li {
+    padding: 0px 10px;
+    font-size: 0.8rem;
+}
+/*section-2*/
+.nav-section-2-wrapper{
+    flex-direction: column;
+    position: absolute;
+    top: 21px;
+    right: 0px;
+    width: 91px;
+}
+#navigation-menu a span{
+    background-color: #E75F00;
+    padding: 10px 7px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    top: -1px;
+}
+
+#logo-section{
+    flex-direction: column;
+    z-index: 4;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+/*Top-Section*/
+#top-content{
+    flex-direction: column;
+}
+#top-content .welcome{
+    width: 100%;
+}
+#top-content .searching{
+    width: 100%;
+    font-size: 1rem;
+}
+#top-content .searching #search-bar{
+    width: 60%;
+}
+
+/*Icon Drawer*/
+i.hide{
+    display: block;
+    position: absolute;
+    right: 43px;
+}
+
+/*Bottom-Section*/
+#bottom-content{
+    flex-direction: column;
+}
+#bottom-content .bottom-left{
+    width: 100%;
+}
+#bottom-content .bottom-left .button-wrapper{
+    min-width: 60%;
+}
+#bottom-content .bottom-right{
+    padding-top: 70px;
+}
+#hero{
+    font-size: 27px;
+}
+/*Utility Classes*/
+.heading-1{
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.heading-2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.sub-heading{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}

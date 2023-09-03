@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div id="current_stylesheet"><link rel="stylesheet" href="./style.css" /></div>
+    <link rel="stylesheet" media="(max-width: 727px)" href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>hacker-space</title>
+  </head>
+  <body>
+    <div id="fetch-info" style="display: none;">1</div>
+    <div class="overall-container">
+      <section id="navigation-menu">
+        <nav id="navigation-bar">
+          <ul>
+            <li class="box-item"><a href="./index.html">Home</a></li>
+            <li class="box-item"><a href="#">Projects</a></li>
+            <li class="box-item"><a href="#">Events</a></li>
+            <li class="box-item"><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="nav-section-2-wrapper">
+        <a href="https://hackerspace.bio.link/"><span> Join Now </span></a>
+        <section id="logo-section">
+          <i id="closing_button" class="fa fa-close hide" onclick="retract()"></i>
+          <div class="logo"><a href="https://www.instagram.com/_hackerspace_msit_/" target="_blank"><img src="./public/instagram.png" alt="" /></a></div>
+          <div class="logo"><a href="https://www.facebook.com/profile.php?id=100091680046825" target="_blank"><img src="./public/facebook.png" alt="" /></a></div>
+          <div class="logo"><a href="https://github.com/Hackerspace2023" target="_blank"><img src="./public/github.png" alt="" /></a></div>
+        </div>
+        </section>
+      </section>
+      <section id="top-content">
+        <div class="welcome">
+            <span class="white heading-2">Welcome To</span> 
+            <span class="orange heading-1 wt-700">
+              Hackerspace
+            </span> 
+            <span class="light-grey sub-heading">Coding Community of MSIT</span>
+        </div>
+        <div class="searching">
+            <p>
+                Dive into the realm where lines of code weave dreams into reality and innovation knows no bounds. Welcome to Hackerspace, your launchpad to explore, create, and collaborate in the world of coding like never before.
+            </p>
+            <div id="search-bar">
+                <img src="./public/search.png" alt="">
+                <input type="text" name="" placeholder="Search" id="">
+            </div>
+            <div id="switch-mode">
+              <div onclick="switchtoLightMode()">
+                  Light
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="empty-section"></section>
+      <section id="bottom-content">
+        <div class="bottom-left">
+            <span id="diff-1" class="heading-1 orange wt-700">Web Development</span>
+            <span id="diff-2" class="heading-1 light-grey">is no more difficult</span>
+            <span id="hero" class="sub-heading light-grey">Become Zero to Hero coder</span>
+            <div class="button-wrapper">
+            <a href="https://www.instagram.com/_hackerspace_msit_/" target="_blank"><button class="button-design">Contact Us</button></a>
+            <a href="https://hackerspace.bio.link" target="_blank"><button class="button-design">Learn more</button></a>
+        </div>
+        </div>
+        <div class="bottom-right">
+            <svg width="300" height="300" viewBox="0 0 469 477" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_229_55)">
+                <path d="M463.5 234.5C463.5 363.207 360.949 467.5 234.5 467.5C108.051 467.5 5.5 363.207 5.5 234.5C5.5 105.793 108.051 1.5 234.5 1.5C360.949 1.5 463.5 105.793 463.5 234.5Z" stroke="white" stroke-opacity="0.45" stroke-width="3" shape-rendering="crispEdges"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_229_55" x="0" y="0" width="469" height="477" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_229_55"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_229_55" result="shape"/>
+                </filter>
+                </defs>
+              </svg>
+              <div class="logo-image-wrapper">
+                <img id="circle-img-1" src="./public/html.png" alt="">
+                <img id="circle-img-2" src="./public/css.png" alt="">
+                <img id="circle-img-3" src="./public/js.png" alt="">
+                <img id="circle-img-4" src="./public/react.png" alt="">
+                <img id="circle-img-5" src="./public/typescript.png" alt="">
+              </div>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
